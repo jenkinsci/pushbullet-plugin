@@ -3,6 +3,7 @@ pushbullet-plugin
 
 Pushbullet integration plugin for Jenkins
 
+Read more: [http://wiki.jenkins-ci.org/display/JENKINS/Pushbullet+Plugin](http://wiki.jenkins-ci.org/display/JENKINS/Pushbullet+Plugin)
 
 Status
 ======
