@@ -245,11 +245,14 @@
                 <artifactId>credentials</artifactId>
                 <version>${jenkins-credentials-plugin.version}</version>
             </dependency>
+
+            <!--
             <dependency>
                 <groupId>net.iharder.jpushbullet2</groupId>
                 <artifactId>jpushbullet2</artifactId>
                 <version>${jpushbullet2.version}</version>
             </dependency>
+            -->
         </dependencies>
     </dependencyManagement>
 
