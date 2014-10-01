@@ -246,13 +246,11 @@
                 <version>${jenkins-credentials-plugin.version}</version>
             </dependency>
 
-            <!--
             <dependency>
                 <groupId>net.iharder.jpushbullet2</groupId>
                 <artifactId>jpushbullet2</artifactId>
                 <version>${jpushbullet2.version}</version>
             </dependency>
-            -->
         </dependencies>
     </dependencyManagement>
 
@@ -271,10 +269,13 @@
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>credentials</artifactId>
         </dependency>
+
+        <!--
         <dependency>
             <groupId>net.iharder.jpushbullet2</groupId>
             <artifactId>jpushbullet2</artifactId>
         </dependency>
+        -->
     </dependencies>
 
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Pushbullet+Plugin</url>
