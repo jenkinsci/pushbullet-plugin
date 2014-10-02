@@ -270,12 +270,10 @@
             <artifactId>credentials</artifactId>
         </dependency>
 
-        <!--
         <dependency>
             <groupId>net.iharder.jpushbullet2</groupId>
             <artifactId>jpushbullet2</artifactId>
         </dependency>
-        -->
     </dependencies>
 
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Pushbullet+Plugin</url>
@@ -325,5 +323,19 @@
             <url>site/${project.version}</url>
         </site>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
